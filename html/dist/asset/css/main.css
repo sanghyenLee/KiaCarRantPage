@@ -1,1 +1,174 @@
-/*# sourceMappingURL=main.css.map */
+.container {
+  width: 100%;
+}
+.container .main-container {
+  width: 100%;
+  height: 850px;
+  padding-top: 100px;
+  position: relative;
+  background: #929292;
+}
+.container .main-container .text-container {
+  width: 85%;
+  margin: 0 auto;
+}
+.container .main-container .text-container .texts {
+  position: absolute;
+  top: 30%;
+  width: 35rem;
+}
+.container .main-container .text-container .texts h1 {
+  display: block;
+  margin-top: 40px;
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+.container .main-container .text-container .texts p {
+  margin-top: 40px;
+  line-height: 1.5;
+  color: #414141;
+}
+.container .main-container .text-container .texts .button-container {
+  margin-top: 40px;
+  display: flex;
+  width: 20rem;
+  justify-content: space-between;
+}
+.container .main-container .text-container .texts .button-container div {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+.container .main-container .text-container .texts .button-container div.left {
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.container .main-container .text-container .texts .button-container div a {
+  font-weight: 500;
+  display: block;
+}
+.container .main-container .main-car {
+  position: absolute;
+  right: 0;
+  border-top-left-radius: 50px;
+  overflow: hidden;
+  margin-top: 50px;
+}
+.container .main-container .main-car img {
+  width: 800px;
+}
+.container .select-container {
+  width: 100%;
+  height: 150px;
+  background: #e4e4e4;
+  position: relative;
+}
+.container .select-container .select-box {
+  position: absolute;
+  width: 85%;
+  height: 150px;
+  background: #bebdbd;
+  z-index: 100;
+  margin-bottom: 100px;
+  bottom: -15%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+}
+.container .select-container .select-box .title {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  height: 40%;
+}
+.container .select-container .select-box .title div .circler {
+  width: 16px;
+  height: 16px;
+  background: rgb(112, 112, 112);
+  border-radius: 10px;
+  position: relative;
+  z-index: 99;
+}
+.container .select-container .select-box .title div .circler .circlea {
+  width: 8px;
+  height: 8px;
+  background: rgb(230, 227, 227);
+  position: absolute;
+  z-index: 100;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 25%;
+  border-radius: 10px;
+}
+.container .select-container .select-box .title .pickup,
+.container .select-container .select-box .title .dropoff {
+  display: flex;
+  align-items: center;
+}
+.container .select-container .select-box .title .pickup span,
+.container .select-container .select-box .title .dropoff span {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.container .select-container .select-box .title .dropoff {
+  margin-left: 40%;
+}
+.container .select-container .select-box .select-content {
+  width: 90%;
+  height: 40%;
+  margin: 0 auto;
+  display: flex;
+}
+.container .select-container .select-box .select-content .pickUp {
+  display: flex;
+  width: 45%;
+  justify-content: space-between;
+}
+.container .select-container .select-box .select-content .dropOff {
+  display: flex;
+  margin-left: 4%;
+  justify-content: space-between;
+  width: 55%;
+}
+.container .select-container .select-box .select-content .dropOff .Search-btn {
+  width: 130px;
+  height: 50px;
+  background: #fff;
+  border-radius: 5px;
+}
+.container .select-container .select-box .select-content .dropOff .Search-btn p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.container .select-container .select-box .select-content .pickUp .box,
+.container .select-container .select-box .select-content .dropOff .box {
+  width: 180px;
+}
+.container .select-container .select-box .select-content .pickUp .box.right,
+.container .select-container .select-box .select-content .dropOff .box.right {
+  border-right: 1px solid #000;
+}
+.container .select-container .select-box .select-content .pickUp .box span,
+.container .select-container .select-box .select-content .dropOff .box span {
+  font-size: 18px;
+  font-weight: 500;
+}
+.container .select-container .select-box .select-content .pickUp .box .downrow,
+.container .select-container .select-box .select-content .dropOff .box .downrow {
+  display: flex;
+  margin-top: 20px;
+}
+.container .select-container .select-box .select-content .pickUp .box .downrow p,
+.container .select-container .select-box .select-content .dropOff .box .downrow p {
+  font-size: 14px;
+}
+.container .select-container .select-box .select-content .pickUp .box .downrow img,
+.container .select-container .select-box .select-content .dropOff .box .downrow img {
+  margin-left: 20px;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
