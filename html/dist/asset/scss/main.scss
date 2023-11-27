@@ -217,7 +217,7 @@
         .wave-img {
           width: 20rem;
           img {
-            width: 18rem;
+            width: 23rem;
           }
         }
         .box {
@@ -255,5 +255,142 @@
   .main-carRant {
     width: 100%;
     background: #e4e4e4;
+    padding: 150px 0 100px 0;
+    .main-carRant-container {
+      width: 85%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .tit,
+      .tit-text {
+        text-align: center;
+      }
+      .tit {
+        font-size: 48px;
+        font-weight: 500;
+      }
+      .tit-text {
+        display: block;
+        margin-top: 40px;
+        font-size: 20px;
+        width: 41rem;
+      }
+      .tab-container {
+        width: 100%;
+        margin-top: 60px;
+
+        .tabs {
+          display: flex;
+          width: 100%;
+          border-bottom: 1px solid #90a3bf;
+          justify-content: center;
+          .tab-link {
+            width: 25%;
+            height: 4rem;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 500;
+            cursor: pointer;
+            &.current {
+              border-bottom: 4px solid #000;
+            }
+          }
+        }
+        .tab-conts {
+          width: 100%;
+          margin-top: 60px;
+          .tab-content {
+            display: none;
+            &.current {
+              display: inherit;
+            }
+          }
+
+          .content-bottom {
+            margin-top: 40px;
+          }
+          .content-top,
+          .content-bottom {
+            display: flex;
+            justify-content: space-between;
+            .tab-box {
+              width: 20%;
+              height: 25rem;
+              background: #929292;
+              overflow: hidden;
+              border-radius: 10px;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              p {
+                font-size: 20px;
+                font-weight: 600;
+              }
+              .top {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 20px 20px 0 20px;
+                img {
+                  cursor: pointer;
+                }
+              }
+              .bottom {
+                display: flex;
+                margin: 20px 0px 20px 20px;
+                align-items: center;
+                span {
+                  margin-left: 5px;
+                  font-weight: 600;
+                  font-size: 14px;
+                }
+                div {
+                  margin-left: 60px;
+                  width: 120px;
+                  height: 40px;
+                  background: #fff;
+                  line-height: 40px;
+                  text-align: center;
+                  border-radius: 5px;
+                  a {
+                    display: block;
+                    font-weight: 500;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .showMoreContainer {
+        width: 100%;
+        margin-top: 60px;
+        .showMore {
+          display: flex;
+          width: 55%;
+          margin-left: 45%;
+          justify-content: space-between;
+          align-items: center;
+          height: 50px;
+          .moreBox {
+            width: 150px;
+            height: 50px;
+            background: #fff;
+            line-height: 50px;
+            text-align: center;
+            border-radius: 5px;
+            a {
+              display: block;
+              font-weight: 500;
+            }
+          }
+          p {
+            font-size: 14px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
   }
 }

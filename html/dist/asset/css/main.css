@@ -222,7 +222,7 @@
   width: 20rem;
 }
 .container .main-center .main-center-container .content-box .wave-img img {
-  width: 18rem;
+  width: 23rem;
 }
 .container .main-center .main-center-container .content-box .box {
   width: 21rem;
@@ -256,4 +256,147 @@
 .container .main-carRant {
   width: 100%;
   background: #e4e4e4;
+  padding: 150px 0 100px 0;
+}
+.container .main-carRant .main-carRant-container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .main-carRant .main-carRant-container .tit,
+.container .main-carRant .main-carRant-container .tit-text {
+  text-align: center;
+}
+.container .main-carRant .main-carRant-container .tit {
+  font-size: 48px;
+  font-weight: 500;
+}
+.container .main-carRant .main-carRant-container .tit-text {
+  display: block;
+  margin-top: 40px;
+  font-size: 20px;
+  width: 41rem;
+}
+.container .main-carRant .main-carRant-container .tab-container {
+  width: 100%;
+  margin-top: 60px;
+}
+.container .main-carRant .main-carRant-container .tab-container .tabs {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #90a3bf;
+  justify-content: center;
+}
+.container .main-carRant .main-carRant-container .tab-container .tabs .tab-link {
+  width: 25%;
+  height: 4rem;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.container .main-carRant .main-carRant-container .tab-container .tabs .tab-link.current {
+  border-bottom: 4px solid #000;
+}
+.container .main-carRant .main-carRant-container .tab-container .tab-conts {
+  width: 100%;
+  margin-top: 60px;
+}
+.container .main-carRant .main-carRant-container .tab-container .tab-conts .tab-content {
+  display: none;
+}
+.container .main-carRant .main-carRant-container .tab-container .tab-conts .tab-content.current {
+  display: inherit;
+}
+.container .main-carRant .main-carRant-container .tab-container .tab-conts .content-bottom {
+  margin-top: 40px;
+}
+.container .main-carRant .main-carRant-container .tab-container .tab-conts .content-top,
+.container .main-carRant .main-carRant-container .tab-container .tab-conts .content-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.container .main-carRant .main-carRant-container .tab-container .tab-conts .content-top .tab-box,
+.container .main-carRant .main-carRant-container .tab-container .tab-conts .content-bottom .tab-box {
+  width: 20%;
+  height: 25rem;
+  background: #929292;
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .main-carRant .main-carRant-container .tab-container .tab-conts .content-top .tab-box p,
+.container .main-carRant .main-carRant-container .tab-container .tab-conts .content-bottom .tab-box p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.container .main-carRant .main-carRant-container .tab-container .tab-conts .content-top .tab-box .top,
+.container .main-carRant .main-carRant-container .tab-container .tab-conts .content-bottom .tab-box .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 20px 0 20px;
+}
+.container .main-carRant .main-carRant-container .tab-container .tab-conts .content-top .tab-box .top img,
+.container .main-carRant .main-carRant-container .tab-container .tab-conts .content-bottom .tab-box .top img {
+  cursor: pointer;
+}
+.container .main-carRant .main-carRant-container .tab-container .tab-conts .content-top .tab-box .bottom,
+.container .main-carRant .main-carRant-container .tab-container .tab-conts .content-bottom .tab-box .bottom {
+  display: flex;
+  margin: 20px 0px 20px 20px;
+  align-items: center;
+}
+.container .main-carRant .main-carRant-container .tab-container .tab-conts .content-top .tab-box .bottom span,
+.container .main-carRant .main-carRant-container .tab-container .tab-conts .content-bottom .tab-box .bottom span {
+  margin-left: 5px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.container .main-carRant .main-carRant-container .tab-container .tab-conts .content-top .tab-box .bottom div,
+.container .main-carRant .main-carRant-container .tab-container .tab-conts .content-bottom .tab-box .bottom div {
+  margin-left: 60px;
+  width: 120px;
+  height: 40px;
+  background: #fff;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 5px;
+}
+.container .main-carRant .main-carRant-container .tab-container .tab-conts .content-top .tab-box .bottom div a,
+.container .main-carRant .main-carRant-container .tab-container .tab-conts .content-bottom .tab-box .bottom div a {
+  display: block;
+  font-weight: 500;
+}
+.container .main-carRant .main-carRant-container .showMoreContainer {
+  width: 100%;
+  margin-top: 60px;
+}
+.container .main-carRant .main-carRant-container .showMoreContainer .showMore {
+  display: flex;
+  width: 55%;
+  margin-left: 45%;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.container .main-carRant .main-carRant-container .showMoreContainer .showMore .moreBox {
+  width: 150px;
+  height: 50px;
+  background: #fff;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+}
+.container .main-carRant .main-carRant-container .showMoreContainer .showMore .moreBox a {
+  display: block;
+  font-weight: 500;
+}
+.container .main-carRant .main-carRant-container .showMoreContainer .showMore p {
+  font-size: 14px;
+  font-weight: 500;
 }/*# sourceMappingURL=main.css.map */
