@@ -31,33 +31,38 @@
 }
 .container .main-container .text-container .texts .button-container {
   margin-top: 40px;
-  display: flex;
   width: 20rem;
+  display: flex;
   justify-content: space-between;
 }
-.container .main-container .text-container .texts .button-container div {
+.container .main-container .text-container .texts .button-container .button {
   width: 150px;
   height: 40px;
   text-align: center;
   line-height: 40px;
 }
-.container .main-container .text-container .texts .button-container div.left {
+.container .main-container .text-container .texts .button-container .button.swiper-button-prev {
   background-color: #fff;
   border: 1px solid #fff;
   border-radius: 5px;
 }
-.container .main-container .text-container .texts .button-container div a {
+.container .main-container .text-container .texts .button-container .button a {
   font-weight: 500;
   display: block;
 }
-.container .main-container .main-car {
+.container .main-container .slideContent {
   position: absolute;
   right: 0;
-  border-top-left-radius: 50px;
-  overflow: hidden;
+  width: 800px;
   margin-top: 50px;
+  overflow: hidden;
+  border-top-left-radius: 50px;
 }
-.container .main-container .main-car img {
+.container .main-container .swiper-wrapper {
+  display: flex;
+  width: 100%;
+}
+.container .main-container .swiper-wrapper img {
   width: 800px;
 }
 .container .select-container {
@@ -162,13 +167,93 @@
 .container .select-container .select-box .select-content .dropOff .box .downrow {
   display: flex;
   margin-top: 20px;
+  height: 16px;
 }
-.container .select-container .select-box .select-content .pickUp .box .downrow p,
-.container .select-container .select-box .select-content .dropOff .box .downrow p {
+.container .select-container .select-box .select-content .pickUp .box .downrow select::-ms-expand,
+.container .select-container .select-box .select-content .dropOff .box .downrow select::-ms-expand {
+  display: none;
+}
+.container .select-container .select-box .select-content .pickUp .box .downrow .select,
+.container .select-container .select-box .select-content .dropOff .box .downrow .select {
+  display: block;
+  height: 20px;
+  width: 160px;
+  border-radius: 4px;
   font-size: 14px;
+  outline: 0 none;
+  background: #bebdbd;
 }
-.container .select-container .select-box .select-content .pickUp .box .downrow img,
-.container .select-container .select-box .select-content .dropOff .box .downrow img {
-  margin-left: 20px;
-  cursor: pointer;
+.container .select-container .select-box .select-content .pickUp .box .downrow .select option,
+.container .select-container .select-box .select-content .dropOff .box .downrow .select option {
+  background: black;
+  color: #fff;
+  font-size: 14px;
+  padding: 3px 0;
+}
+.container .main-center {
+  width: 100%;
+  padding-top: 100px;
+  height: 634px;
+}
+.container .main-center .main-center-container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .main-center .main-center-container p {
+  font-size: 48px;
+  font-weight: 500;
+}
+.container .main-center .main-center-container .center-text {
+  text-align: center;
+  width: 41rem;
+  margin-top: 50px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.container .main-center .main-center-container .content-box {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+}
+.container .main-center .main-center-container .content-box .wave-img {
+  width: 20rem;
+}
+.container .main-center .main-center-container .content-box .wave-img img {
+  width: 18rem;
+}
+.container .main-center .main-center-container .content-box .box {
+  width: 21rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .main-center .main-center-container .content-box .box .bg-box {
+  width: 7rem;
+  height: 7rem;
+  background: #bebdbd;
+  position: relative;
+  border-radius: 25px;
+}
+.container .main-center .main-center-container .content-box .box .bg-box img {
+  position: absolute;
+  width: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 25%;
+}
+.container .main-center .main-center-container .content-box .box p {
+  margin-top: 40px;
+  font-size: 30px;
+}
+.container .main-center .main-center-container .content-box .box span {
+  margin-top: 20px;
+  text-align: center;
+  line-height: 2;
+}
+.container .main-carRant {
+  width: 100%;
+  background: #e4e4e4;
 }/*# sourceMappingURL=main.css.map */
