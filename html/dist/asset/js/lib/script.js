@@ -1,12 +1,12 @@
-const swiper = new Swiper(".slideContent .swiper-container", {
+const swiper = new Swiper(" .swiper-container", {
   //   direction: "horizontal",
   //   loop: true,
   //   autoplay: {
   //     delay: 3000,
   //   },
   navigation: {
-    nextEl: ".slideContent .swiper-button-next",
-    prevEl: ".slideContent .swiper-button-prev",
+    nextEl: " .swiper-button-next",
+    prevEl: " .swiper-button-prev",
   },
 });
 $(document).ready(function () {
