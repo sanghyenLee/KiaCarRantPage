@@ -36,3 +36,4 @@ $(document).ready(function () {
 
   //   $(".tab-box .top img").click
 });
+AOS.init();
