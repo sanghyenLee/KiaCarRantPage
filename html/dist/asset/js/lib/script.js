@@ -15,8 +15,8 @@ const mySwiper = new Swiper(" .mySwiper", {
   slidesPerView: "auto",
 
   navigation: {
-    nextEl: " .swiper-button-next",
-    prevEl: " .swiper-button-prev",
+    nextEl: ".left-right .swiper-button-next",
+    prevEl: ".left-right .swiper-button-prev",
   },
   pagination: {
     el: ".swiper-pagination",
