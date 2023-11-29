@@ -64,4 +64,9 @@ header .headerContainer .header-nav .header-login .login-button a {
   text-decoration: none;
   color: #fff;
   display: block;
+}
+
+footer {
+  width: 100%;
+  padding-top: 100px;
 }/*# sourceMappingURL=common.css.map */
