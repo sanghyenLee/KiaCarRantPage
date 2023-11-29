@@ -68,5 +68,95 @@ header .headerContainer .header-nav .header-login .login-button a {
 
 footer {
   width: 100%;
+  background: #e4e4e4;
+}
+footer .footer-top-container {
   padding-top: 100px;
+  width: 85%;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  border-bottom: 1px solid #929292;
+}
+footer .footer-top-container .footerLogoSns {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-top-container .footerLogoSns span {
+  margin-top: 30px;
+  font-size: 18px;
+}
+footer .footer-top-container .footerLogoSns .footerSns {
+  display: flex;
+  width: 10rem;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+footer .footer-top-container .footerLogoSns .footerSns div {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50px;
+  position: relative;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+footer .footer-top-container .footerLogoSns .footerSns div a {
+  display: block;
+}
+footer .footer-top-container .footerLogoSns .footerSns div a img {
+  width: 20px;
+  position: absolute;
+  left: 50%;
+  bottom: 25%;
+  transform: translateX(-50%);
+}
+footer .footer-top-container .footerNav {
+  margin-left: auto;
+  width: 55rem;
+}
+footer .footer-top-container .footerNav .footerNavList {
+  display: flex;
+  height: 250px;
+  justify-content: space-between;
+}
+footer .footer-top-container .footerNav .footerNavList .tit {
+  display: block;
+  width: 12.5rem;
+  height: 50px;
+  font-size: 24px;
+  font-weight: 600;
+}
+footer .footer-top-container .footerNav .footerNavList .nav-box {
+  width: 12.5rem;
+  height: 200px;
+}
+footer .footer-top-container .footerNav .footerNavList .nav-box ul {
+  display: block;
+  height: 200px;
+}
+footer .footer-top-container .footerNav .footerNavList .nav-box ul li {
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: 500;
+}
+footer .footer-top-container .footerNav .footerNavList .nav-box ul li a {
+  display: block;
+}
+footer .footer-bottom-container {
+  width: 85%;
+  height: 100px;
+  margin: 50px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-bottom-container span {
+  font-size: 18px;
+  font-weight: 600;
+}
+footer .footer-bottom-container div {
+  width: 24rem;
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=common.css.map */
